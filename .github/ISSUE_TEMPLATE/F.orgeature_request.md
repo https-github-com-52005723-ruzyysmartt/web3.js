@@ -1,10 +1,12 @@
----
+---ISSUE TEMPLATE---
+
 name: Feature request
 about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
+title: ''web3js
+labels: ''ethereum web3js
 
+assignees: ''ruzyysmartt my ethereum wallet web3.js 
+https://github.com/https-github-com-ruzyysmartt/web3.js-repository.git
 ---
 
 **Is your feature request related to a problem? Please describe.**
