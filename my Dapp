@@ -1,0 +1,13 @@
+import { initDefaultAccessContext } from 'eos-transit';
+import portisProvider from 'eos-transit-portis-provider';
+
+initDefaultAccessContext({
+ appName: 'smarttcryptocurency',
+ network: { 
+   host: 'api.eosdetroit.io',
+   port: 443,
+   protocol: 'https',
+   chainId: 'aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906'
+ },
+ walletProviders: [portisProvider({ DappId: '0b2dc936-4aa6-46cd-ae8a-9ba27b61370e' })]
+});https://clovers.network/account/basket?pick=c4c5d6c3e6d7b3f5c2c1d1e1e7f4g4g5c8g3e3f3b5d8h6f7d3h5f6c6h4a6c7b6e2b8e8f2h3f1a4d2b4f8a7a8g7h2g2h7g6a2g8h8b7h1b1a5a3b2a1g1
